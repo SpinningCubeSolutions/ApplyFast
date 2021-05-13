@@ -1,0 +1,34 @@
+[tool.briefcase]
+project_name = "Apply Fast!"
+bundle = "nz.co.spinningcube"
+version = "0.0.1"
+url = "http://apply.fast"
+license = "Other"
+author = 'Michael Inglis'
+author_email = "michael@spinningcube.co.nz"
+
+[tool.briefcase.app.applyfast]
+formal_name = "Apply Fast!"
+description = "CV and Cover Letter Creator"
+icon = "src/applyfast/resources/applyfast"
+sources = ['src/applyfast']
+requires = [
+    'pyside2==5.13.0',]
+
+
+[tool.briefcase.app.applyfast.macOS]
+requires = []
+
+[tool.briefcase.app.applyfast.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.applyfast.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.applyfast.iOS]
+requires = []
+
+[tool.briefcase.app.applyfast.android]
+requires = []
